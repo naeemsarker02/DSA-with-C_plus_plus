@@ -18,10 +18,30 @@ using namespace std;
 
 int main()
 {
+
+    int age;
+
+    cout<<"enter age for job eligibility: "<<endl;
+    cin>> age;
+
+    
+    if(age<18){
+        cout<<"you are not eligible for job"<<endl;
+    }else if(age>=18 && age <=54){
+        cout<<"you are eligible for job"<<endl;
+    }else if( age<=55 && age <57){
+        cout<<"eligible but retirment soon"<<endl;
+    }else{
+        cout<<"retired"<<endl;
+    }
+
+    
+    //********************** end */
+
     // int day;
     // cin>>day;
 
-    // switch(day){
+    // ***** switch(day){
     //     case 1:
     //     cout<<"Saturday";
     //     break;
@@ -38,7 +58,7 @@ int main()
     //     cout<<"invalid input";
     // }
 
-    // array//
+    // ***** array//
     //  int arr[5];
     //  for(int i=0; i<5; i++){
     //      cin>>arr[i];
@@ -50,7 +70,7 @@ int main()
     //  arr[2]+=7;
     //  cout<<"\nArray elements after updating 3rd element: "<<arr[2];
 
-    // 2D array//
+    //**** 2D array//
     //  int arr[3][3];
     //  for(int i=0; i<3; i++){
     //      for(int j=0; j<3; j++){
@@ -64,7 +84,7 @@ int main()
     //      }
     //  }
 
-    // string//
+    // *****string//
     //  string str;
     //  cin>>str;
     //  cout<<"String is: "<<str<<endl;
@@ -72,7 +92,9 @@ int main()
     //  int length = str.length();
     //  cout<<"and last character is: "<<str[length-1]<<endl;
 
-    // function//
+
+
+    // *****function//
     //  string name, name2;
     //  cin>>name;
     //  cin>>name2;
@@ -90,8 +112,8 @@ int main()
 
     // cout<<"Enter the number of rows: ";
 
-    // problem solving practice
-    // 1.Take an integer n as input and print numbers from 1 to n.
+    // ****** problem solving practice
+    // ** 1.Take an integer n as input and print numbers from 1 to n.
     // int n;
     // cin >> n;
     // for (int i = 1; i <= n; i++)
@@ -99,17 +121,18 @@ int main()
     //     cout << i << " ";
     // }
 
-    // Problem 2: Sum of First n Natural Numbers
-    int n;
-    cout << "Enter the value of n: ";
-    cin >> n;
-    int sum = 0;
+    // ** Problem 2: Sum of First n Natural Numbers
+    // int n;
+    // cout << "Enter the value of n: ";
+    // cin >> n;
+    // int sum = 0;
 
-    for (int i = 1; i <= n; i++)
-    {
-        sum = sum + i;
-    }
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     sum = sum + i;
+    // }
     
-    cout << sum;
-    return 0;
+    // cout << sum;
+    // return 0;
+    
 }
