@@ -1,11 +1,10 @@
-public class Main {
-  public static void main(String[] args) {
+import java.util.HashMap;
 
-    int [] arr = {1, 2, 3, 4, 5};
-    for (int i = 0; i < arr.length; i++){
-      System.out.print(arr[i]+" ");
+public class Main {
+    public static void main(String[] args){
+        HashMap<String, Integer> map = new HashMap<>();
+
+        map.put("bd", 1);
+        System.out.println(map);
     }
-    System.out.println();
-    
-  }
 }
